@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  position: absolute;
+  z-index: 99;
+}
+header .container .navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .container .navBar .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+header .container .navBar .logo a .logo-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .container .navBar .logo a .logo-img img {
+  width: 24px;
+  height: 38px;
+}
+header .container .navBar .logo a .logo-img img:last-child {
+  margin-left: -10px;
+}
+header .container .navBar .logo a span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  color: #fff;
+}
+header .container .navBar .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 82px;
+}
+header .container .navBar .nav-right .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  height: 80px;
+}
+header .container .navBar .nav-right .navigation .navItem .navLink {
+  color: rgb(220, 220, 220);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+header .container .navBar .nav-right .navigation .navItem .navLink:hover {
+  color: #fff;
+}
+header .container .navBar .nav-right .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .navBar .nav-right .contact .contact-link {
+  height: 35px;
+  padding: 0 24px;
+  background-color: #2094e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+header .container .navBar .nav-right .contact .contact-link:hover {
+  background-color: #145788;
+}
+
+#home {
+  background-image: url("../image/image1.png");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+#home::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */

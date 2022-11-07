@@ -1,0 +1,41 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+// sifirlama
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    color: #000;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+// colors
+$primary-color:#2094e6;
+$hover-btn:#145788;
+$white-color:#fff;
+$head-color:#121212;
+$p-color:#333;
+$white-hover: rgb(220, 220, 220);
+
+// button
+@mixin button {
+    height: 35px;
+    padding: 0 24px;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    color: $white-color;
+    transition: all .3s;
+    &:hover{
+        background-color: $hover-btn;
+    }
+} 
