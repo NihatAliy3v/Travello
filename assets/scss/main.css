@@ -18,8 +18,8 @@ a {
   margin: auto;
 }
 
-.row {
-  margin-top: 128px;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -196,6 +196,9 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   background-color: #145788;
 }
 
+#about {
+  padding-top: 138px;
+}
 #about .container .row .about-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,4 +274,37 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   width: 11px;
   height: 10px;
   margin-left: 10px;
+}
+
+#whyUs {
+  padding-top: 260px;
+}
+#whyUs .container .row .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+#whyUs .container .row .cards .card {
+  width: 285px;
+  padding: 44px 28px 30px 27px;
+  -webkit-box-shadow: 0 7px 29px rgba(100, 100, 111, 0.2);
+          box-shadow: 0 7px 29px rgba(100, 100, 111, 0.2);
+}
+#whyUs .container .row .cards .card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 14px;
+}
+#whyUs .container .row .cards .card .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+#whyUs .container .row .cards .card .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }/*# sourceMappingURL=main.css.map */

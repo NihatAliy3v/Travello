@@ -1,0 +1,33 @@
+#whyUs{
+    padding-top: 260px;
+    .container{
+        .row{
+            .cards{
+                display: flex;
+                gap: 20px;
+                .card{
+                    width: 285px;
+                    padding: 44px 28px 30px 27px;
+                    box-shadow: 0 7px 29px #64646F33;
+                    img{
+                        width: 50px;
+                        height: 50px;   
+                        margin-bottom: 14px;
+                    }
+                    .title{
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: $head-color;
+                        margin-bottom: 15px;
+                    }
+                    .description{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
