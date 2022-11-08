@@ -307,4 +307,50 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+}
+
+#trips {
+  padding-top: 128px;
+}
+#trips .container .row .trips-title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 60px;
+  color: #121212;
+  text-align: center;
+}
+#trips .container .row .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+#trips .container .row .cards .card {
+  margin-top: 64px;
+  position: relative;
+  width: 387px;
+  height: 400px;
+}
+#trips .container .row .cards .card img {
+  width: 100%;
+  height: 100%;
+}
+#trips .container .row .cards .card .card-words {
+  position: absolute;
+  top: 254px;
+}
+#trips .container .row .cards .card .card-words .title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#trips .container .row .cards .card .card-words .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
