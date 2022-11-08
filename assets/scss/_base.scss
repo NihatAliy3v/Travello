@@ -17,7 +17,6 @@ a{
     width: 1200px;
     margin: auto;
 }
-
 // colors
 $primary-color:#2094e6;
 $hover-btn:#145788;
@@ -28,11 +27,12 @@ $white-hover: rgb(220, 220, 220);
 
 // button
 @mixin button {
+    width: fit-content;
     height: 35px;
     padding: 0 24px;
-    background-color: $primary-color;
     display: flex;
     align-items: center;
+    background-color: $primary-color;
     color: $white-color;
     transition: all .3s;
     &:hover{

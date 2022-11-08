@@ -1,6 +1,7 @@
 #home{
     background-image: url("../image/image1.png");
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 700px;
     &::after{
@@ -8,6 +9,36 @@
         background: rgba(0, 0, 0, 0.3);
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: 700px;
+        top: 0;
+        left: 0;
+        
+    }
+    .container{
+        padding-top: 241px;
+        .home-words{
+            width: 592px;
+            position: absolute;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            
+            .title{
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 110%;
+                color: $white-color;
+            }
+            .description{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: $white-color;
+            }
+            .started{
+                @include button;
+            }
+        }
     }
 }

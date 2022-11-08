@@ -21,7 +21,7 @@ a {
 header {
   height: 80px;
   width: 100%;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 2px solid rgba(229, 229, 229, 0.2);
   position: absolute;
   z-index: 99;
 }
@@ -79,10 +79,12 @@ header .container .navBar .nav-right .navigation {
           align-items: center;
   gap: 50px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 400;
   line-height: 100%;
   height: 80px;
+}
+header .container .navBar .nav-right .navigation .navItem {
+  font-size: 18px;
 }
 header .container .navBar .nav-right .navigation .navItem .navLink {
   color: rgb(220, 220, 220);
@@ -101,15 +103,18 @@ header .container .navBar .nav-right .contact {
           align-items: center;
 }
 header .container .navBar .nav-right .contact .contact-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 35px;
   padding: 0 24px;
-  background-color: #2094e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #2094e6;
   color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -121,6 +126,7 @@ header .container .navBar .nav-right .contact .contact-link:hover {
 #home {
   background-image: url("../image/image1.png");
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 700px;
 }
@@ -129,5 +135,55 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 700px;
+  top: 0;
+  left: 0;
+}
+#home .container {
+  padding-top: 241px;
+}
+#home .container .home-words {
+  width: 592px;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+#home .container .home-words .title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 110%;
+  color: #fff;
+}
+#home .container .home-words .description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+#home .container .home-words .started {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 35px;
+  padding: 0 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2094e6;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#home .container .home-words .started:hover {
+  background-color: #145788;
 }/*# sourceMappingURL=main.css.map */
