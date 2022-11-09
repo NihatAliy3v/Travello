@@ -22,10 +22,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  height: 5000px;
-}
-
 header {
   height: 80px;
   width: 100%;
@@ -509,4 +505,117 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   width: 11px;
   height: 10px;
   margin-left: 10px;
+}
+
+.footer {
+  height: 450px;
+  width: 100%;
+  background-color: #0a0a0a;
+  padding-top: 64px;
+}
+.footer .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .container .row .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.footer .container .row .logo a .logo-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .container .row .logo a .logo-img img {
+  width: 24px;
+  height: 38px;
+}
+.footer .container .row .logo a .logo-img img:last-child {
+  margin-left: -10px;
+}
+.footer .container .row .logo a span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  color: #fff;
+}
+.footer .container .row .learn .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer .container .row .learn .list .listItem a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  opacity: 0.8;
+}
+.footer .container .row .ticket .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer .container .row .ticket .list .listItem a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  opacity: 0.8;
+}
+.footer .container .row .contact .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer .container .row .contact .list .listItem span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  opacity: 0.8;
+  margin-right: 12px;
+}
+.footer .container .row .contact .list .listItem a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+}
+.footer .container .row .social .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer .container .row .social a {
+  margin-right: 25px;
+}
+.footer .container .copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  opacity: 0.75;
+  margin-top: 55px;
+  padding: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

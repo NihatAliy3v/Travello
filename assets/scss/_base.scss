@@ -20,9 +20,6 @@ a{
 html{
     scroll-behavior: smooth;
 }
-body{
-    height: 5000px;
-}
 // colors
 $primary-color:#2094e6;
 $hover-btn:#145788;
@@ -30,6 +27,7 @@ $white-color:#fff;
 $head-color:#121212;
 $p-color:#333;
 $white-hover: rgb(220, 220, 220);
+$footer-color: #0a0a0a;
 
 // button
 @mixin button {
@@ -73,4 +71,18 @@ $white-hover: rgb(220, 220, 220);
 @mixin section-words {
     width: 486px;
     padding-top: 30px;
+}
+@mixin footer-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: $white-color;
+    margin-bottom: 25px;
+}
+@mixin footerLink {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: $white-color;
+
 }

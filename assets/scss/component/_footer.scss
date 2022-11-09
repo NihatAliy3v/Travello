@@ -1,0 +1,103 @@
+.footer{
+    height: 450px;
+    width: 100%;
+    background-color: $footer-color;
+    padding-top: 64px;
+    .container{
+        .row{
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    .logo-img{
+                        display: flex;
+                        
+                        img{
+                            width: 24px;
+                            height: 38px;
+                            &:last-child{
+                                margin-left: -10px;
+                            }
+                        }
+                    }
+                    span{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 100%;
+                        color: $white-color;
+                    }
+                }
+            }
+            .learn{
+                .title{
+                    @include footer-title;
+                }
+                .list{
+                    .listItem{
+                        a{
+                            @include footerLink;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+            .ticket{
+                .title{
+                    @include footer-title;
+                }
+                .list{
+                    .listItem{
+                        a{
+                            @include footerLink;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+            .contact{
+                .title{
+                    @include footer-title;
+                }
+                .list{
+                    .listItem{
+                        span{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 14px;
+                            color: $white-color;
+                            opacity: 0.8;
+                            margin-right: 12px
+                        }
+                        a{
+                            @include footerLink;
+                        }
+                    }
+                }
+            }
+            .social{
+                .title{
+                    @include footer-title;
+                }
+                a{
+                    margin-right: 25px;
+                }
+            }
+            
+        }
+        .copyright{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            color: $white-color;
+            opacity: .75;
+            margin-top: 55px;
+            padding: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            text-align: center;
+        }
+    }
+}
