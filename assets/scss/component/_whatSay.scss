@@ -18,6 +18,11 @@
                     }
                     .reviews{
                         @include button;
+                        img{
+                            width: 11px;
+                            height: 10px;
+                            margin-left: 10px;
+                        }
                     }
                 }
                 .whatSay-img{
