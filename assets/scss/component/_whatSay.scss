@@ -1,0 +1,34 @@
+#whatSay{
+    padding-top: 128px;
+    .container{
+        .row{
+            .whatSay-container{
+                display: flex;
+                justify-content: space-between;
+                .whatSay-words{
+                    @include section-words;
+                    .whatSay-title{
+                        @include section-title;
+                    }
+                    .title{
+                        @include title;
+                    }
+                    .description{
+                        @include description;
+                    }
+                    .reviews{
+                        @include button;
+                    }
+                }
+                .whatSay-img{
+                    width: 578px;
+                    height: 386px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

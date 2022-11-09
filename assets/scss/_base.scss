@@ -21,7 +21,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    height: 3000px;
+    height: 5000px;
 }
 // colors
 $primary-color:#2094e6;
@@ -45,3 +45,32 @@ $white-hover: rgb(220, 220, 220);
         background-color: $hover-btn;
     }
 } 
+//title
+@mixin title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    color: $head-color;
+    margin-bottom: 20px;
+}
+//description
+@mixin description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: $p-color;
+    margin-bottom: 20px;
+}
+//section-title
+@mixin section-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: $primary-color;
+    margin-bottom: 10px;
+}
+//section-words
+@mixin section-words {
+    width: 486px;
+    padding-top: 30px;
+}

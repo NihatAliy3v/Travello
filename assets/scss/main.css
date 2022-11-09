@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  height: 3000px;
+  height: 5000px;
 }
 
 header {
@@ -197,7 +197,7 @@ header .container .navBar .nav-right .contact .contact-link:hover {
 }
 
 #about {
-  padding-top: 138px;
+  padding-top: 128px;
 }
 #about .container .row .about-container {
   display: -webkit-box;
@@ -353,4 +353,69 @@ header .container .navBar .nav-right .contact .contact-link:hover {
   line-height: 150%;
   color: #fff;
   text-align: center;
+}
+
+#whatSay {
+  padding-top: 128px;
+}
+#whatSay .container .row .whatSay-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#whatSay .container .row .whatSay-container .whatSay-words {
+  width: 486px;
+  padding-top: 30px;
+}
+#whatSay .container .row .whatSay-container .whatSay-words .whatSay-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2094e6;
+  margin-bottom: 10px;
+}
+#whatSay .container .row .whatSay-container .whatSay-words .title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 60px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+#whatSay .container .row .whatSay-container .whatSay-words .description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  margin-bottom: 20px;
+}
+#whatSay .container .row .whatSay-container .whatSay-words .reviews {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 35px;
+  padding: 0 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2094e6;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#whatSay .container .row .whatSay-container .whatSay-words .reviews:hover {
+  background-color: #145788;
+}
+#whatSay .container .row .whatSay-container .whatSay-img {
+  width: 578px;
+  height: 386px;
+}
+#whatSay .container .row .whatSay-container .whatSay-img img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
